@@ -69,8 +69,8 @@ body {
 
 /* Image styling */
 .project1 img {
-    width: 250px; /* Smaller image size */
-    height: auto;
+    width: 250px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 5px;
     margin-bottom: 15px;
 }
