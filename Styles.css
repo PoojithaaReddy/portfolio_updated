@@ -1,3 +1,4 @@
+/* General body styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,17 +7,20 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header section styles */
 .header {
     background: #35424a;
     color: #ffffff;
     padding: 10px 20px;
 }
 
+/* Navigation link styles */
 .head {
     display: flex;
     justify-content: flex-start;
 }
 
+/* Link styling in header */
 .head a {
     color: #ffffff;
     text-decoration: none;
@@ -37,7 +41,7 @@ body {
     border-radius: 8px;
 }
 
-/* Project Sections */
+/* Individual project section styles */
 .project1 {
     margin-bottom: 20px;
     padding: 15px;
@@ -46,21 +50,32 @@ body {
     background-color: #f9f9f9;
 }
 
+/* Project title styling */
 .project1 h1 {
     color: #333;
     margin-bottom: 10px;
 }
 
+/* Secondary headings in project sections */
 .project1 h2 {
     color: #444;
     margin: 10px 0 5px;
 }
 
+/* Paragraph text styling */
 .project1 p {
     color: #666;
 }
 
-/* Responsive Styles */
+/* Image styling */
+.project1 img {
+    width: 250px; /* Smaller image size */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Responsive design adjustments */
 @media (max-width: 600px) {
     .projectnew {
         margin: 10px;
