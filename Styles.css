@@ -1,7 +1,9 @@
+/* General project container styling */
 .projectnew {
     margin-top: 20px;
 }
 
+/* Individual project card styling */
 .project1 {
     background-color: whitesmoke;
     border: 1px solid #ddd;
@@ -12,16 +14,56 @@
     transition: transform 0.2s;
 }
 
+/* Hover effect for the project cards */
 .project1:hover {
     transform: scale(1.02);
 }
 
+/* Title styling inside project cards */
 .project1 h1 {
     font-size: 1.5em;
     margin: 0 0 10px;
 }
 
+/* Paragraph text styling inside project cards */
 .project1 p {
     font-size: 1em;
     color: #555;
+}
+
+/* Image styling inside project cards */
+.project1 img {
+    width: 250px; /* Smaller image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Button styling */
+.project1 .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+.project1 .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .project1 {
+        padding: 15px;
+    }
+    .project1 h1 {
+        font-size: 1.2em;
+    }
+    .project1 img {
+        width: 100%; /* Make images responsive on smaller screens */
+    }
 }
